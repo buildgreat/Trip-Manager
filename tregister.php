@@ -16,34 +16,7 @@ $result = $conn->query($sql);
 
 //if (isset($_POST['email'])) {
    //     sendMail();
-    //}
-/*function sendMail(){
-    require_once "PHPMailer_5.2.4/class.phpmailer.php";
-    $mail = new PHPMailer(); $mail->IsSMTP();$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
-    $mail->SMTPAuth = true; // authentication enabled
-    $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-    $mail->Host = "smtp.gmail.com";$mail->Port = 465; // or 587
-    $mail->IsHTML(true);
-    $mail->Username = "workforce.pawan@gmail.com";
-    $mail->Password = "workforce@321";
-    $mail->SetFrom("workforce.pawan@gmail.com");$mail->Subject = "Password Recovery";
-    $mail->Body ="Sample testing of php mail function";$mail->AddAddress($_SESSION['email']);
-						 if(!$mail->Send()) {
-                                                     echo '<script language="javascript">';
-					             echo 'alert("Email not Send \nMailer Error:Authentication Required\n\nPassword not updated")';
-					             echo '</script>';
-                                                 }
-                                                 else {
-                                                     echo '<script language="javascript">';
-						     echo 'alert("Email sent")';
-						     echo '</script>';
-                                                 }
-
-}
-//sendMail();*/
-   // header("Location:home.php");    //
-
-    
+    //}    
 }    
 ?>
 
